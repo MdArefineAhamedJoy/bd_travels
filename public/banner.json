@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Sundarbans Mangrove Forest",
+    "location": "Khulna Division",
+    "description": "The Sundarbans is the largest mangrove forest in the world and home to the Bengal tiger. It's a UNESCO World Heritage Site.",
+    "package": {
+      "price": 25000,
+      "rating": 4.7,
+      "persons": 2,
+      "days": 3
+    },
+    "image": "https://media.istockphoto.com/id/1603473839/photo/wild-spotted-deer.jpg?s=612x612&w=0&k=20&c=zWSSZVyHvvC6LVZXm-Unz9P7ffaPS4sFdFOq0rJVraQ=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Cox's Bazar",
+    "location": "Chittagong Division",
+    "description": "Cox's Bazar is known for having the longest natural sea beach in the world, stretching for over 120 kilometers.",
+    "package": {
+      "price": 35000,
+      "rating": 4.5,
+      "persons": 2,
+      "days": 2
+    },
+    "image": "https://media.istockphoto.com/id/457425347/photo/a-boat-in-bangladesh-on-the-beach.jpg?s=612x612&w=0&k=20&c=XdDWfFuurxicIv7wcpoHvzsf9-2htquLquql89Hlf2M=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Sajek Valley",
+    "location": "Rangamati District, Chittagong Hill Tracts",
+    "description": "Sajek Valley is a picturesque hill station known for its lush green hills and serene landscapes.",
+    "package": {
+      "price": 9000,
+      "rating": 4.8,
+      "persons": 2,
+      "days": 4
+    },
+    "image": "https://images.unsplash.com/photo-1578128178075-a7fbe741fcf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2FqZWslMjB2YWxsZXklMjAocmFuZ2FtYXRpKXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Tangor Hour",
+    "location": "Sylhet Division",
+    "description": "Tangor Hour is a scenic destination in Sylhet Division, known for its natural beauty and unique landscapes.",
+    "package": {
+      "price": 10000,
+      "rating": 4.3,
+      "persons": 2,
+      "days": 2
+    },
+    "image": "https://images.unsplash.com/photo-1661111168932-4241429374f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fFRhbmdvciUyMGhvdXIlMjBTeWxoZXQlMjBEaXZpc2lvbiUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Lalbagh Fort",
+    "location": "Dhaka",
+    "description": "Lalbagh Fort, also known as Fort Aurangabad, is an incomplete 17th-century Mughal fort complex in the heart of Dhaka, Bangladesh.",
+    "package": {
+      "price": 2500,
+      "rating": 4.1,
+      "persons": 2,
+      "days": 1
+    },
+    "image": "https://media.istockphoto.com/id/1462591992/photo/the-tomb-of-bibi-pari-in-the-grounds-of-lalbagh-fort-in-dhaka-bangladesh.jpg?s=612x612&w=0&k=20&c=1YJJtt_Pe4XXsPTtqFLUTUrHSrJVlH3w5Tw3jxiNdso=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Sreemangal",
+    "location": "Sylhet Division",
+    "description": "Sreemangal is the 'Tea Capital of Bangladesh' and is famous for its tea gardens, wildlife, and vibrant culture.",
+    "package": {
+      "price": 15800,
+      "rating": 4.4,
+      "persons": 2,
+      "days": 2
+    },
+    "image": "https://media.istockphoto.com/id/1444110065/photo/a-cup-of-hot-tea-with-the-tea-plantation-background-at-sreemangal-tea-garden-bangladesh-space.webp?b=1&s=170667a&w=0&k=20&c=OZXueAL7bKagTj_GEmyg8H4kgJ6By5yU-77mWs6rWi4=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Cox's Bazar Marine Drive",
+    "location": "Chittagong Division",
+    "description": "The Marine Drive in Cox's Bazar offers breathtaking views of the Bay of Bengal. It's a scenic road along the coastline.",
+    "package": {
+      "price": 25000,
+      "rating": 4.2,
+      "persons": 3,
+      "days": 1
+    },
+    "image": "https://media.istockphoto.com/id/1346172937/photo/drone-shot-of-coxs-bazar-teknaf-marine-drive.jpg?s=612x612&w=0&k=20&c=f28ldm8jaCfqv5F_sGeirAslAjTDSi3tNUS9q7yl3_A=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Saint Martin's Island",
+    "location": "Cox's Bazar District",
+    "description": "Saint Martin's Island is a tropical paradise known for its sandy beaches, crystal-clear waters, and coral reefs.",
+    "package": {
+      "price": 4200,
+      "rating": 4.9,
+      "persons": 2,
+      "days": 3
+    },
+    "image": "https://images.unsplash.com/photo-1606546008984-41818b01968a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2FpbnQlMjBNYXJ0aW4ncyUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Kuakata Sea Beach",
+    "location": "Barisal Division",
+    "description": "Kuakata is famous for its panoramic sea beach, often referred to as the 'Daughter of the Sea.'",
+    "package": {
+      "price": 32000,
+      "rating": 4.3,
+      "persons": 2,
+      "days": 2
+    },
+    "image": "https://media.istockphoto.com/id/1423711545/photo/scenic-view-of-kuakata-sea-beach-with-fishing-boat.webp?b=1&s=170667a&w=0&k=20&c=VOhhyW2O5aGQZzhn2zcT7KUTJIu7PgdcfWg5WqIHqVU=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Bandarban",
+    "location": "Chittagong Hill Tracts",
+    "description": "Bandarban is a hill district known for its stunning landscapes, waterfalls, and indigenous culture.",
+    "package": {
+      "price": 4500,
+      "rating": 4.6,
+      "persons": 1,
+      "days": 3
+    },
+    "image": "https://media.istockphoto.com/id/1479003223/photo/sunset-behind-the-clouds-in-a-remote-forest-marayon-thong-hill-bandarban-bangladesh.webp?b=1&s=170667a&w=0&k=20&c=MbPS_j5zW-3NP7h41SfVwvELBwxqYKP35f0EFf61nz8=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Rangamati",
+    "location": "Chittagong Hill Tracts",
+    "description": "Rangamati is a beautiful hill town known for its Kaptai Lake, hills, and indigenous communities.",
+    "package": {
+      "price": 7000,
+      "rating": 4.4,
+      "persons": 2,
+      "days": 2
+    },
+    "image": "https://images.unsplash.com/photo-1632935640437-b0c806829023?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJhbmdhbWF0aSUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Jaflong",
+    "location": "Sylhet Division",
+    "description": "Jaflong is a scenic spot on the border with India, famous for its tea gardens and the Khasi tribal culture.",
+    "package": {
+      "price": 12500,
+      "rating": 4.2,
+      "persons": 2,
+      "days": 2
+    },
+    "image": "https://media.istockphoto.com/id/1277546406/photo/photo-of-jaflong-region.jpg?s=612x612&w=0&k=20&c=XIkP8hpsxwanwo540BgT9i5DB-26QXwIyzU-MyOJTyw=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Paharpur",
+    "location": "Rajshahi Division",
+    "description": "Paharpur is home to the ancient Buddhist Vihara known as Somapura Mahavihara, a UNESCO World Heritage Site.",
+    "package": {
+      "price": 9600,
+      "rating": 4.0,
+      "persons": 2,
+      "days": 1
+    },
+    "image": "https://media.istockphoto.com/id/1316078638/photo/paharpur-buddhist-monk-naogaon.jpg?s=612x612&w=0&k=20&c=5t-BE3dwvmLMFGCKIjKeISGqU8nR66dSxs_W8exdFO8=",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Kaptai Lake",
+    "location": "Chittagong Hill Tracts",
+    "description": "Kaptai Lake is the largest man-made lake in Bangladesh, offering scenic boat rides and water activities.",
+    "package": {
+      "price": 2900,
+      "rating": 4.5,
+      "persons": 2,
+      "days": 1
+    },
+    "image": "https://images.unsplash.com/photo-1632935640437-b0c806829023?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEthcHRhaSUyMExha2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
+    "tours" : "EXPANSIVE TOURS"
+  },
+  {
+    "name": "Madhabkunda Waterfall",
+    "location": "Sylhet Division",
+    "description": "Madhabkunda is the highest waterfall in Bangladesh, surrounded by lush green forests and hiking trails.",
+    "package": {
+      "price": 3000,
+      "rating": 4.3,
+      "persons": 2,
+      "days": 1
+    },
+    "image": "https://images.unsplash.com/photo-1519582149095-fe7d19b2a3d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1hZGhhYmt1bmRhJTIwV2F0ZXJmYWxsJTIwYmFuZ2xhZGVzaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "tours" : "EXPANSIVE TOURS"
+  }
+]
