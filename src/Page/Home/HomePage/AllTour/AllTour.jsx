@@ -40,7 +40,7 @@ const AllTour = () => {
 
           <TabPanel>
             <div className="grid md:grid-cols-3 gap-5 mt-16">
-              {toursData.map(({image , name , packages , description}) => (
+              {toursData.map(({ image, name, packages, description }) => (
                 <div className="card  bg-base-100 shadow-xl rounded-none">
                   <figure>
                     <img className="h-56 w-full" src={image} alt="" />
@@ -70,13 +70,15 @@ const AllTour = () => {
           </TabPanel>
         </Tabs>
       </section>
-      <section>
-        <p>
+      <section className="w-10/12 mx-auto pt-20">
+        <p className="text-center text-xl font-thin leading-9">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-          sollicitudin, tellus vitae condimentum egestas, libero dolor auctor
+          sollicitudin, tellus vitae condimentum egestas, <br /> libero dolor auctor
           tellus, eu consectetur neque elit quis nunc. Cras elementum pretium.
         </p>
-        <button className="uppercase">view all tours</button>
+        <div className=" pt-10 w-52 mx-auto">
+          <button className="uppercase btn w-full ">view all tours</button>
+        </div>
       </section>
     </div>
   );

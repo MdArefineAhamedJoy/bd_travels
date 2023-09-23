@@ -3,6 +3,7 @@ import PopularPlace from './HomePage/PopularPlace/PopularPlace';
 import Discount from './HomePage/Discount/Discount';
 import AllTour from './HomePage/AllTour/AllTour';
 import UsefulInformation from './HomePage/UsefulInformation/UsefulInformation';
+import InterestingFacts from './HomePage/InterestingFacts/InterestingFacts';
 
 
 
@@ -13,6 +14,7 @@ const Home = () => {
            <Discount></Discount>
            <AllTour></AllTour>
            <UsefulInformation></UsefulInformation>
+           <InterestingFacts></InterestingFacts>
         </div>
     );
 };
