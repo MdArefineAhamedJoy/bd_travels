@@ -4,13 +4,9 @@ import { BiTime } from "react-icons/bi";
 import { Link, useLocation } from "react-router-dom";
 import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { AiOutlineAlignLeft } from "react-icons/ai";
-import Banner from "../../Home/HomePage/Banner/Banner";
-import TopNav from "./TopNav";
-import ToursBanner from "../../Home/Tour/ToursBanner";
 
-const NavBar = () => {
+const ToursBanner = () => {
   const location = useLocation();
-  const bannerSection = location?.pathname === "/";
   const toursPage = location?.pathname === "/tours";
   const navItem = (
     <>
@@ -55,14 +51,11 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className={`${bannerSection ? "h-screen" : "h-full"}`}>
-      {/* top navStart */}
-      <TopNav></TopNav>
-      {/* top navEnd */}
-      {toursPage ? (
-        <ToursBanner></ToursBanner>
-      ) : (
-        <section className="navbar bg-base-100 px-7 py-3 ">
+    <div >
+      <section className={` bg_tours flex items-start`}>
+        <div
+          className={`navbar  px-7 py-3  `}
+        >
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -88,13 +81,13 @@ const NavBar = () => {
                 {navItem}
               </ul>
             </div>
-            <a className=" normal-case text-xl font-bold">BD Traveler</a>
+            <a className=" normal-case text-xl font-bold ">BD Traveler</a>
           </div>
-          <div className="navbar-end hidden lg:flex items-center">
-            <ul className=" flex items-center font-semibold ">{navItem}</ul>
+          <div className="navbar-end  hidden lg:flex items-center ">
+            <ul className=" flex  font-semibold items-center ">{navItem}</ul>
           </div>
-        </section>
-      )}
+        </div>
+      </section>
 
       <div className="drawer drawer-end z-30">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
@@ -112,9 +105,8 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
-      {bannerSection && <Banner></Banner>}
     </div>
   );
 };
 
-export default NavBar;
+export default ToursBanner;

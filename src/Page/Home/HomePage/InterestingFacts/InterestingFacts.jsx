@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useRef } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import { Navigation } from "swiper/modules";
 import "swiper/css";
-
-// import "./styles.css";
 
 const InterestingFacts = () => {
   const [allData, setAllData] = useState([]);
@@ -25,15 +21,17 @@ const InterestingFacts = () => {
           sed viverra dui. Suspendisse laoreet velit at eros eleifend.
         </p>
       </div>
-      <section>
+      <section className="mx-auto py-24">
         <Swiper
           watchSlidesProgress={true}
           slidesPerView={5}
           className="mySwiper"
+          navigation={true}
+          modules={[Navigation]}
         >
           {allData.map((data) => (
             <SwiperSlide key={data?.id}>
-                <img src={data?.url} alt="" />
+              <img className="mx-auto" src={data?.url} alt="" />
             </SwiperSlide>
           ))}
         </Swiper>

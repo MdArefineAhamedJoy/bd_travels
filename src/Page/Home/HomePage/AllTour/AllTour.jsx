@@ -7,7 +7,7 @@ const AllTour = () => {
   const [activeColor, setActiveColor] = useState(false);
   const [toursData, setToursData] = useState([]);
   useEffect(() => {
-    fetch("banner.json")
+    fetch("http://localhost:5000/tours")
       .then((response) => response.json())
       .then((data) => setToursData(data));
   }, []);

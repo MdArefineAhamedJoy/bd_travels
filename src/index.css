@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.bg_tours {
+    background-image: url('https://media.istockphoto.com/id/1399202334/photo/mature-hiking-couple-relax-at-viewpoint.webp?b=1&s=170667a&w=0&k=20&c=U6iA8R_SyBOvCZ1RB1eygEbuGOe9SDgdCTf8NNEhZho=');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    height: 50vh;
+    display: flex;
+    justify-items: start!;
+}
