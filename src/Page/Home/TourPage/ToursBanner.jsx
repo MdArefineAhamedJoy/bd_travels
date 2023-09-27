@@ -14,7 +14,7 @@ const ToursBanner = () => {
         <Link className="mx-3  text-neutral-700 uppercase">Home</Link>
       </li>
       <li>
-        <Link className="mx-3  text-neutral-700 uppercase">Page</Link>
+        <Link className="mx-3  text-neutral-700 uppercase">About </Link>
       </li>
       <li>
         <Link className="mx-3  text-neutral-700 uppercase">Blogs</Link>

@@ -6,7 +6,7 @@ import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { AiOutlineAlignLeft } from "react-icons/ai";
 import Banner from "../../Home/HomePage/Banner/Banner";
 import TopNav from "./TopNav";
-import ToursBanner from "../../Home/Tour/ToursBanner";
+import ToursBanner from "../../Home/TourPage/ToursBanner";
 
 const NavBar = () => {
   const location = useLocation();
@@ -18,13 +18,13 @@ const NavBar = () => {
         <Link className="mx-3  text-neutral-700 uppercase">Home</Link>
       </li>
       <li>
-        <Link className="mx-3  text-neutral-700 uppercase">Page</Link>
+        <Link to="/about" className="mx-3  text-neutral-700 uppercase">About </Link>
       </li>
       <li>
-        <Link className="mx-3  text-neutral-700 uppercase">Blogs</Link>
+        <Link to="/blog" className="mx-3  text-neutral-700 uppercase">Blogs</Link>
       </li>
       <li>
-        <Link className="mx-3  text-neutral-700 uppercase">Destination</Link>
+        <Link to="destination" className="mx-3  text-neutral-700 uppercase">Destination</Link>
       </li>
       <li>
         <Link to="/tours" className="mx-3  text-neutral-700 uppercase">
@@ -32,10 +32,11 @@ const NavBar = () => {
         </Link>
       </li>
       <li>
-        <Link className="mx-3  text-neutral-700 uppercase">Elements</Link>
+        <Link to="element" className="mx-3  text-neutral-700 uppercase">Elements</Link>
       </li>
+
       <li>
-        <Link className="mx-3  text-neutral-700 uppercase">Shops</Link>
+        <Link to="shop" className="mx-3  text-neutral-700 uppercase">Shops</Link>
       </li>
       <li>
         <div className="indicator">
