@@ -2,7 +2,7 @@
   {
     "name": "Sundarbans Mangrove Forest",
     "location": "Khulna Division",
-    "description": "The Sundarbans is the largest mangrove forest in the world and home to the Bengal tiger. It's a UNESCO World Heritage Site.",
+    "description": "The Sundarbans, straddling Bangladesh and India, stands as the world's largest mangrove forest and a UNESCO World Heritage Site. This breathtaking ecosystem, spanning around 10,000 square kilometers, is defined by its intricate web of tidal waterways, mudflats, and islands formed by the merging of major rivers. Yet, it's the dense mangrove trees that truly distinguish the Sundarbans.",
     "package": {
       "price": 25000,
       "rating": 4.7,
@@ -10,12 +10,14 @@
       "days": 3
     },
     "image": "https://media.istockphoto.com/id/1603473839/photo/wild-spotted-deer.jpg?s=612x612&w=0&k=20&c=zWSSZVyHvvC6LVZXm-Unz9P7ffaPS4sFdFOq0rJVraQ=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Budget Friendly",
+    "types": "Romantic",
+    "activities":"false"
   },
   {
     "name": "Cox's Bazar",
     "location": "Chittagong Division",
-    "description": "Cox's Bazar is known for having the longest natural sea beach in the world, stretching for over 120 kilometers.",
+    "description": "Cox's Bazar, a picturesque coastal town in southeastern Bangladesh, is celebrated for a natural wonder that has earned it global recognition—the world's longest natural sea beach. With its unspoiled beauty and serene ambiance, this coastal gem has become a magnet for travelers from across the globe. Spanning an astonishing distance of over 120 kilometers along the .",
     "package": {
       "price": 35000,
       "rating": 4.5,
@@ -23,12 +25,14 @@
       "days": 2
     },
     "image": "https://media.istockphoto.com/id/457425347/photo/a-boat-in-bangladesh-on-the-beach.jpg?s=612x612&w=0&k=20&c=XdDWfFuurxicIv7wcpoHvzsf9-2htquLquql89Hlf2M=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Recommended",
+    "types": "Romantic",
+    "activities":"false"
   },
   {
     "name": "Sajek Valley",
     "location": "Rangamati District, Chittagong Hill Tracts",
-    "description": "Sajek Valley is a picturesque hill station known for its lush green hills and serene landscapes.",
+    "description": "Nestled in the remote hills of the Chittagong Hill Tracts in Bangladesh, Sajek Valley is a hidden gem that beckons travelers with its idyllic charm and untouched beauty. This picturesque hill station is renowned for its lush green hills, serene landscapes, and an atmosphere that seems almost otherworldly.",
     "package": {
       "price": 9000,
       "rating": 4.8,
@@ -36,12 +40,14 @@
       "days": 4
     },
     "image": "https://images.unsplash.com/photo-1578128178075-a7fbe741fcf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2FqZWslMjB2YWxsZXklMjAocmFuZ2FtYXRpKXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Budget Friendly",
+    "types": "Cruises",
+    "activities":"false"
   },
   {
     "name": "Tangor Hour",
     "location": "Sylhet Division",
-    "description": "Tangor Hour is a scenic destination in Sylhet Division, known for its natural beauty and unique landscapes.",
+    "description": "Nestled within the captivating landscapes of the Sylhet Division in Bangladesh, Tangor Hour stands as an exquisite destination for nature enthusiasts and wanderers seeking respite in the lap of serene beauty. This scenic locale has earned its reputation for the stunning natural vistas it offers, each one more enchanting than the last.",
     "package": {
       "price": 10000,
       "rating": 4.3,
@@ -49,12 +55,14 @@
       "days": 2
     },
     "image": "https://images.unsplash.com/photo-1661111168932-4241429374f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fFRhbmdvciUyMGhvdXIlMjBTeWxoZXQlMjBEaXZpc2lvbiUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Budget Friendly",
+    "types": "Group Tours",
+    "activities":"false"
   },
   {
     "name": "Lalbagh Fort",
     "location": "Dhaka",
-    "description": "Lalbagh Fort, also known as Fort Aurangabad, is an incomplete 17th-century Mughal fort complex in the heart of Dhaka, Bangladesh.",
+    "description": "Lalbagh Fort, also known as Fort Aurangabad, stands as a historical masterpiece in the heart of Dhaka, the vibrant capital city of Bangladesh. This 17th-century Mughal fort complex carries within its walls the echoes of a bygone era, a testament to the rich history and architectural grandeur of the Mughal Empire .Construction of Lalbagh Fort commenced in 1678 during the reign of Mughal Subahdar (Governor) Muhammad Azam Shah.",
     "package": {
       "price": 2500,
       "rating": 4.1,
@@ -62,12 +70,14 @@
       "days": 1
     },
     "image": "https://media.istockphoto.com/id/1462591992/photo/the-tomb-of-bibi-pari-in-the-grounds-of-lalbagh-fort-in-dhaka-bangladesh.jpg?s=612x612&w=0&k=20&c=1YJJtt_Pe4XXsPTtqFLUTUrHSrJVlH3w5Tw3jxiNdso=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Recommended",
+    "types": "Meals Included",
+    "activities":"false"
   },
   {
     "name": "Sreemangal",
     "location": "Sylhet Division",
-    "description": "Sreemangal is the 'Tea Capital of Bangladesh' and is famous for its tea gardens, wildlife, and vibrant culture.",
+    "description": "Sreemangal, often referred to as the 'Tea Capital of Bangladesh,' is a hidden treasure nestled in the northeastern part of the country. This charming town is renowned for its lush tea gardens, diverse wildlife, and vibrant culture, making it a must-visit destination for travelers seeking a unique and immersive experience. The heart of Sreemangal's allure lies in its extensive tea estates, es in its extensive tea estates,es in its extensive tea estates,es in its extensive tea estates, which stretch as far as the eye can see",
     "package": {
       "price": 15800,
       "rating": 4.4,
@@ -75,12 +85,14 @@
       "days": 2
     },
     "image": "https://media.istockphoto.com/id/1444110065/photo/a-cup-of-hot-tea-with-the-tea-plantation-background-at-sreemangal-tea-garden-bangladesh-space.webp?b=1&s=170667a&w=0&k=20&c=OZXueAL7bKagTj_GEmyg8H4kgJ6By5yU-77mWs6rWi4=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Budget Friendly",
+    "types": "Romantic",
+    "activities":"false"
   },
   {
     "name": "Cox's Bazar Marine Drive",
     "location": "Chittagong Division",
-    "description": "The Marine Drive in Cox's Bazar offers breathtaking views of the Bay of Bengal. It's a scenic road along the coastline.",
+    "description": "Cox's Bazar, known for its stunning natural beauty and the world's longest natural sea beach, also boasts a coastal road that's a true visual marvel—the Marine Drive. This scenic road, winding along the coastline, offers breathtaking views of the Bay of Bengal, making it a must-visit destination for travelers seeking serenity and the allure of the sea. The Marine Drive is a testament to the unadulterated beauty of Cox's Bazar. As you embark on this coastal journey, you are greeted by the endless expanse of the Bay of Bengal on one side and the rolling hills on the other.",
     "package": {
       "price": 25000,
       "rating": 4.2,
@@ -88,12 +100,14 @@
       "days": 1
     },
     "image": "https://media.istockphoto.com/id/1346172937/photo/drone-shot-of-coxs-bazar-teknaf-marine-drive.jpg?s=612x612&w=0&k=20&c=f28ldm8jaCfqv5F_sGeirAslAjTDSi3tNUS9q7yl3_A=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Recommended",
+    "types": "Museum Tours",
+    "activities":"false"
   },
   {
     "name": "Saint Martin's Island",
     "location": "Cox's Bazar District",
-    "description": "Saint Martin's Island is a tropical paradise known for its sandy beaches, crystal-clear waters, and coral reefs.",
+    "description": "Saint Martin's Island, nestled in the serene waters of the Bay of Bengal, is a tropical paradise that beckons travelers with its pristine beauty and natural wonders. Located off the coast of Cox's Bazar in Bangladesh, this idyllic island is renowned for its sandy beaches, crystal-clear waters, and vibrant coral reefs, making it a must-visit destination for those seeking a tranquil escape.The island's sandy shores stretch along its coastline, inviting visitors to bask in the golden sunlight, take leisurely walks along the beach, and enjoy the rhythmic sound of the waves gently caressing the shore. The beaches of Saint Martin's Island offer a perfect setting for relaxation, where the stresses of everyday life melt away, and all that remains is the harmony of nature",
     "package": {
       "price": 4200,
       "rating": 4.9,
@@ -101,12 +115,14 @@
       "days": 3
     },
     "image": "https://images.unsplash.com/photo-1606546008984-41818b01968a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2FpbnQlMjBNYXJ0aW4ncyUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Recommended",
+    "types": "City Sightseeing",
+    "activities": "false"
   },
   {
     "name": "Kuakata Sea Beach",
     "location": "Barisal Division",
-    "description": "Kuakata is famous for its panoramic sea beach, often referred to as the 'Daughter of the Sea.'",
+    "description": "Kuakata, a serene coastal town in the Patuakhali district of Bangladesh, has earned its reputation as the 'Daughter of the Sea' due to its panoramic sea beach and breathtaking natural beauty. Nestled along the Bay of Bengal, Kuakata is a place where visitors can immerse themselves in the gentle embrace of the sea and the wonders of the coastline. The star attraction of Kuakata is undoubtedly its expansive sea beach, stretching as far as the eye can see. The beach is known for its stunning sunrise and sunset views, making it a sanctuary for those who seek moments of tranquility and natural beauty. As the sun paints the sky with shades of gold and crimson, it casts a warm glow over the tranquil waters, creating a sight that lingers in the memory.",
     "package": {
       "price": 32000,
       "rating": 4.3,
@@ -114,12 +130,14 @@
       "days": 2
     },
     "image": "https://media.istockphoto.com/id/1423711545/photo/scenic-view-of-kuakata-sea-beach-with-fishing-boat.webp?b=1&s=170667a&w=0&k=20&c=VOhhyW2O5aGQZzhn2zcT7KUTJIu7PgdcfWg5WqIHqVU=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "City Sightseeing",
+    "types": "Budget Friendly",
+    "activities": "false"
   },
   {
     "name": "Bandarban",
     "location": "Chittagong Hill Tracts",
-    "description": "Bandarban is a hill district known for its stunning landscapes, waterfalls, and indigenous culture.",
+    "description": "Nestled in the southeastern corner of Bangladesh, Bandarban is a mesmerizing hill district celebrated for its breathtaking landscapes, enchanting waterfalls, and the rich tapestry of indigenous cultures that call this region home. It stands as a testament to the diverse beauty and cultural wealth of Bangladesh's hill tracts. The rugged terrain of Bandarban is adorned with lush green hills, dense forests, and picturesque valleys. Travelers are greeted with vistas that seem to belong to another world, where nature's grandeur takes center stage. The district is a paradise for trekking enthusiasts, offering numerous trails that lead to hidden gems, including serene lakes, secluded waterfalls, and panoramic viewpoints",
     "package": {
       "price": 4500,
       "rating": 4.6,
@@ -127,12 +145,14 @@
       "days": 3
     },
     "image": "https://media.istockphoto.com/id/1479003223/photo/sunset-behind-the-clouds-in-a-remote-forest-marayon-thong-hill-bandarban-bangladesh.webp?b=1&s=170667a&w=0&k=20&c=MbPS_j5zW-3NP7h41SfVwvELBwxqYKP35f0EFf61nz8=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Budget Friendly",
+    "types": "Eastern tours",
+    "activities": "false"
   },
   {
     "name": "Rangamati",
     "location": "Chittagong Hill Tracts",
-    "description": "Rangamati is a beautiful hill town known for its Kaptai Lake, hills, and indigenous communities.",
+    "description": "Rangamati, a picturesque hill town in the Chittagong Hill Tracts of Bangladesh, is a destination that seamlessly blends natural splendor with the vibrant traditions of indigenous communities. Nestled amidst hills and forests, it's renowned for the stunning Kaptai Lake, rolling hills, and the rich cultural tapestry of its indigenous inhabitants.  The crown jewel of Rangamati is the Kaptai Lake, a sprawling artificial reservoir formed by damming the Karnaphuli River. The shimmering blue waters, surrounded by lush green hills, create a breathtaking panorama. Visitors can take boat rides on the lake, allowing them to absorb the serene ambiance and appreciate the verdant beauty that engulfs them.",
     "package": {
       "price": 7000,
       "rating": 4.4,
@@ -140,12 +160,14 @@
       "days": 2
     },
     "image": "https://images.unsplash.com/photo-1632935640437-b0c806829023?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJhbmdhbWF0aSUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Eastern World",
+    "types": "Escorted tours",
+    "activities": "false"
   },
   {
     "name": "Jaflong",
     "location": "Sylhet Division",
-    "description": "Jaflong is a scenic spot on the border with India, famous for its tea gardens and the Khasi tribal culture.",
+    "description": "Jaflong, located on the border of Bangladesh and India, is a captivating destination celebrated for its stunning natural landscapes, lush tea gardens, and the rich cultural heritage of the Khasi tribal community. It stands as a testament to the harmonious coexistence of diverse cultures and the breathtaking beauty of the region.  One of Jaflong's standout features is its lush tea gardens, where verdant tea bushes stretch across the undulating terrain, creating a captivating sight.",
     "package": {
       "price": 12500,
       "rating": 4.2,
@@ -153,12 +175,14 @@
       "days": 2
     },
     "image": "https://media.istockphoto.com/id/1277546406/photo/photo-of-jaflong-region.jpg?s=612x612&w=0&k=20&c=XIkP8hpsxwanwo540BgT9i5DB-26QXwIyzU-MyOJTyw=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Budget Friendly",
+    "types": "Budget Friendly",
+    "activities": "Air Rides"
   },
   {
     "name": "Paharpur",
     "location": "Rajshahi Division",
-    "description": "Paharpur is home to the ancient Buddhist Vihara known as Somapura Mahavihara, a UNESCO World Heritage Site.",
+    "description": "Paharpur, a place of profound historical significance in Bangladesh, is home to the ancient Buddhist Vihara known as Somapura Mahavihara. This UNESCO World Heritage Site is a testament to the rich cultural and architectural heritage of the region and stands as a living relic of a bygone era.  The centerpiece of Paharpur is the Somapura Mahavihara, which dates back to the 8th century during the reign of the Pala Empire. This ancient monastery, built in the traditional architectural style of the Pala dynasty, served as a center for Buddhist learning, culture, and spiritual practice. The Mahavihara, with its striking red bricks and intricate carvings, is a marvel of ancient craftsmanship and design.",
     "package": {
       "price": 9600,
       "rating": 4.0,
@@ -166,12 +190,14 @@
       "days": 1
     },
     "image": "https://media.istockphoto.com/id/1316078638/photo/paharpur-buddhist-monk-naogaon.jpg?s=612x612&w=0&k=20&c=5t-BE3dwvmLMFGCKIjKeISGqU8nR66dSxs_W8exdFO8=",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "EXPANSIVE TOURS",
+    "types": "Escorted tours",
+    "activities": "Beaches"
   },
   {
     "name": "Kaptai Lake",
     "location": "Chittagong Hill Tracts",
-    "description": "Kaptai Lake is the largest man-made lake in Bangladesh, offering scenic boat rides and water activities.",
+    "description": "Kaptai Lake, the largest man-made lake in Bangladesh, is a mesmerizing aquatic gem that beckons travelers with its scenic beauty and an array of water-based activities. Nestled amidst the lush green hills of the Chittagong Hill Tracts, this vast reservoir is a tranquil oasis and a must-visit destination for those seeking serenity and natural splendor.The creation of Kaptai Lake was a result of damming the Karnaphuli River, which snakes through the hills and valleys of the region. The serene blue waters of the lake are framed by rolling hills covered in dense forests, creating a captivating vista that seems almost surreal. The lake's expansive surface provides a serene backdrop for relaxation and exploration. ",
     "package": {
       "price": 2900,
       "rating": 4.5,
@@ -179,19 +205,23 @@
       "days": 1
     },
     "image": "https://images.unsplash.com/photo-1632935640437-b0c806829023?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEthcHRhaSUyMExha2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Expensive",
+    "types": "Escorted tours",
+    "activities": "Hiking Adventures"
   },
   {
     "name": "Madhabkunda Waterfall",
     "location": "Sylhet Division",
-    "description": "Madhabkunda is the highest waterfall in Bangladesh, surrounded by lush green forests and hiking trails.",
+    "description": "Madhabkunda, nestled amidst the pristine landscapes of Bangladesh, is home to the country's highest waterfall. This natural wonder, surrounded by lush green forests and hiking trails, offers an enchanting escape for nature enthusiasts and adventure seekers alike.The crown jewel of Madhabkunda is the majestic waterfall itself. It plunges from a significant height, creating a breathtaking cascade of foaming water that resonates with the thunderous sound of nature's power. Visitors to Madhabkunda are treated to a mesmerizing display of the raw force of water as it tumbles down the rocky terrain",
     "package": {
-      "price": 3000,
+      "price": 1750,
       "rating": 4.3,
       "persons": 2,
       "days": 1
     },
     "image": "https://images.unsplash.com/photo-1519582149095-fe7d19b2a3d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1hZGhhYmt1bmRhJTIwV2F0ZXJmYWxsJTIwYmFuZ2xhZGVzaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "EXPANSIVE TOURS"
+    "tours" : "Budget Friendly",
+    "types": "Meals Included",
+    "activities": "false"
   }
 ]
