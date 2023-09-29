@@ -1,0 +1,179 @@
+[
+  {
+    "category": "Accessories",
+    "productName": "Fashionable Sunglasses",
+    "price": 29.99,
+    "rating": 4.5,
+    "image": "https://media.istockphoto.com/id/1417602445/photo/sunglasses-in-golden-bright-color-in-transparent-plastic-eyewear-top-view-with-shadow-trendy.jpg?s=612x612&w=0&k=20&c=Y4yhFCE_tBZfM9qzQ7A7s8prDbEXnVrTa1xcmIHo1Co="
+  },
+  {
+    "category": "Accessories",
+    "productName": "Leather Wallet",
+    "price": 39.99,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1586579724969-2cb96841bcb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1989&q=80"
+  },
+  {
+    "category": "Accessories",
+    "productName": "Stylish Scarf",
+    "price": 19.99,
+    "rating": 4.0,
+    "image": "https://media.istockphoto.com/id/482140828/photo/scarf-isolated-on-white-with-a-clipping-path.jpg?s=612x612&w=0&k=20&c=cbewUAmXIGokKeq0viaRXxZjWiEvVkq8iXEeKCg2wg8="
+  },
+  {
+    "category": "Camping",
+    "productName": "Camping Tent",
+    "price": 149.99,
+    "rating": 4.7,
+    "image": "https://media.istockphoto.com/id/142533334/photo/yellow-dome-tent-with-open-zip-enclosure.webp?b=1&s=170667a&w=0&k=20&c=gSAVNeLqYy4D0z8hYxLCRtfKWaWFXIQXYJ2s2UdlalQ="
+  },
+  {
+    "category": "Camping",
+    "productName": "Sleeping Bag",
+    "price": 79.99,
+    "rating": 4.4,
+    "image": "https://media.istockphoto.com/id/172719446/photo/two-blankets-in-blue-and-green-for-outdoor-events.webp?b=1&s=170667a&w=0&k=20&c=SD5ajJBgYqxxPjRnn4qM0MwMfkL3cPt-K0HJJolEP9s="
+  },
+  {
+    "category": "Camping",
+    "productName": "Portable Camping Stove",
+    "price": 49.99,
+    "rating": 4.5,
+    "image": "https://media.istockphoto.com/id/1307132303/photo/portable-camping-stove-with-gas-canister.jpg?s=612x612&w=0&k=20&c=pUOGoO1gRKf581MZIym42EGzeuX6xMm2igfbUyMIYok="
+  },
+  {
+    "category": "Designer",
+    "productName": "Designer Handbag",
+    "price": 299.99,
+    "rating": 4.8,
+    "image": "https://media.istockphoto.com/id/1302787124/photo/beige-leather-women-handbag-isolated-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=ZwURnHRWm3h4Uc1rnTVL1cuDXd7C8qenMwvRvlHFwpw="
+  },
+  {
+    "category": "Designer",
+    "productName": "Designer Watch",
+    "price": 199.99,
+    "rating": 4.6,
+    "image": "https://media.istockphoto.com/id/97472180/photo/wristwatch.webp?b=1&s=170667a&w=0&k=20&c=QvyS1QLLQi4JfCXLhx-c03L7C77TVixG6qYGhriK8ic="
+  },
+  {
+    "category": "Designer",
+    "productName": "Luxury Sunglasses",
+    "price": 249.99,
+    "rating": 4.7,
+    "image": "https://media.istockphoto.com/id/1389652549/photo/fashionable-sunglasses-isolated-on-pink-background.webp?b=1&s=170667a&w=0&k=20&c=atRM6B0bXdgnDLJE7aYzcOes9Ky_Wu6CCwyZ3Uby6Ho="
+  },
+  {
+    "category": "Equipment",
+    "productName": "Gym Equipment Set",
+    "price": 499.99,
+    "rating": 4.9,
+    "image": "https://media.istockphoto.com/id/1414524820/photo/3d-rendering-fitness-equipment-on-the-pink-background.webp?b=1&s=170667a&w=0&k=20&c=G8ZZFkj6pDo5II39WX9Mc7wNE1_wEz-HA7mA8SJUsF4="
+  },
+  {
+    "category": "Equipment",
+    "productName": "Home Workout Bench",
+    "price": 129.99,
+    "rating": 4.3,
+    "image": "https://media.istockphoto.com/id/1438561217/photo/home-gym-with-barbell-dumbbells-boxing-bag-and-other-sports-equipments.webp?b=1&s=170667a&w=0&k=20&c=B6LPOLh25qjrrZPSy6_mH9R-uF580q_U_rSWFJSnV88="
+  },
+  {
+    "category": "Equipment",
+    "productName": "Fitness Resistance Bands",
+    "price": 19.99,
+    "rating": 4.5,
+    "image": "https://media.istockphoto.com/id/1477457758/photo/colorful-resistance-bands-with-different-resistance-weights.jpg?s=612x612&w=0&k=20&c=8V_mtWz_vb_m1UU2gMJhkeCKXyfGVSf4tX13rBl41Go="
+  },
+  {
+    "category": "Exercise",
+    "productName": "Yoga Mat",
+    "price": 19.99,
+    "rating": 4.5,
+    "image": "https://media.istockphoto.com/id/1400291457/photo/set-with-blue-camping-mats-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=WNdRo5MNIUK89vVvery-cB_XrN0LOr3cBpb6bxfOOG4="
+  },
+  {
+    "category": "Exercise",
+    "productName": "Dumbbell Set",
+    "price": 69.99,
+    "rating": 4.4,
+    "image": "https://media.istockphoto.com/id/1178477986/photo/3d-rendering-fitness-equipment-on-color-background.webp?b=1&s=170667a&w=0&k=20&c=EldJoWfn6BWxRZfxCBH9lh4Iw1YrK-wqMmIXINRSPj8="
+  },
+  {
+    "category": "Exercise",
+    "productName": "Jump Rope",
+    "price": 9.99,
+    "rating": 4.2,
+    "image": "https://media.istockphoto.com/id/1391090492/photo/the-green-jump-rope-lies-on-a-yellow-background.webp?b=1&s=170667a&w=0&k=20&c=ViohqzMKyzIFwd-nwlzZ322VtOXusudfxoYv1v7JB7Y="
+  },
+
+  {
+    "category": "Sculpture",
+    "productName": "Bronze Sculpture",
+    "price": 399.99,
+    "rating": 4.7,
+    "image": "https://media.istockphoto.com/id/1349363964/photo/thoughtful-man-sitting-down-confusion-and-overthinking-concept.webp?b=1&s=170667a&w=0&k=20&c=I0tIHGz1h7CGOcGCAIZ6t2xnO1BTAoxem_nIlWyzkHM="
+  },
+  {
+    "category": "Sculpture",
+    "productName": "Abstract Art Sculpture",
+    "price": 249.99,
+    "rating": 4.6,
+    "image": "https://media.istockphoto.com/id/477068125/photo/abstract-human-face-3d-illustration.webp?b=1&s=170667a&w=0&k=20&c=U44AiEKgbicDpsrSgGR2ng7sHvZt7Kf41XdO5x6IQ6Y="
+  },
+  {
+    "category": "Shoes",
+    "productName": "Running Shoes",
+    "price": 79.99,
+    "rating": 4.5,
+    "image": "https://media.istockphoto.com/id/1407127841/photo/white-sneaker-with-colored-accents-on-a-green-gradient-background-mens-fashion-sport-shoe-air.webp?b=1&s=170667a&w=0&k=20&c=KNqyFVBZAxUdjpSjH2TWtzpM-rl_eijnmudOAxArWSI="
+  },
+  {
+    "category": "Shoes",
+    "productName": "High Heels",
+    "price": 89.99,
+    "rating": 4.3,
+    "image": "https://media.istockphoto.com/id/1489218334/photo/fashion.webp?b=1&s=170667a&w=0&k=20&c=m9CTZC-G9y-lc-q51H7aQhDnZjiCm-V0Wj0qggTncgA="
+  },
+  {
+    "category": "Shoes",
+    "productName": "Sneakers",
+    "price": 59.99,
+    "rating": 4.4,
+    "image": "https://media.istockphoto.com/id/1417090656/photo/white-leather-sneaker.jpg?s=612x612&w=0&k=20&c=mF0ZLSz0DKnuVgR1KEPhPnGV4xTvWB2R_zsWJIKoko0="
+  },
+  {
+    "category": "Uncategorized",
+    "productName": "Mystery Item",
+    "price": 9.99,
+    "rating": 3.9,
+    "image": "https://media.istockphoto.com/id/909938382/photo/box-covered-with-red-fabric.webp?b=1&s=170667a&w=0&k=20&c=ljhWmFTtyrNON6KCDcCwSyJysyelb-n2N3DQR4F54sg="
+  },
+  {
+    "category": "Uncategorized",
+    "productName": "Unidentified Object",
+    "price": 19.99,
+    "rating": 4.1,
+    "image": "https://media.istockphoto.com/id/1190295119/photo/unidentified-flying-object-clipping-path-included.webp?b=1&s=170667a&w=0&k=20&c=067EtOzgEWRD6TwIyI4w6zVLTZwl7YQttBaxBrhF708="
+  },
+
+  {
+    "category": "Vintage",
+    "productName": "Antique Pocket Watch",
+    "price": 149.99,
+    "rating": 4.7,
+    "image": "https://media.istockphoto.com/id/1534771000/photo/hand-holding-a-vintage-pocket-watch-close-up.webp?b=1&s=170667a&w=0&k=20&c=Eqrjgwu9vt74IZQOR0z5H2LuPhjd_vLCDhy3vc4jWr8="
+  },
+  {
+    "category": "Vintage",
+    "productName": "Vintage Vinyl Record",
+    "price": 29.99,
+    "rating": 4.5,
+    "image": "https://media.istockphoto.com/id/1089294244/photo/vintage-gramophone-with-a-vynil-record.webp?b=1&s=170667a&w=0&k=20&c=z8npLwNs0-0vEOHgTERmtI8deUJkIWEIZwb3H-_d4pI="
+  },
+  {
+    "category": "Vintage",
+    "productName": "Retro Typewriter",
+    "price": 199.99,
+    "rating": 4.6,
+    "image": "https://media.istockphoto.com/id/182208465/photo/retro-typewriter.webp?b=1&s=170667a&w=0&k=20&c=Xozm7feSHAYJVPZuzfoXwNOU_Wzl6wbfNDt_Y1X3A_Q="
+  }
+]

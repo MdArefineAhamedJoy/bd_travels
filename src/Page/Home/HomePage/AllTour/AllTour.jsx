@@ -6,11 +6,12 @@ import { SlReload } from "react-icons/sl";
 const AllTour = () => {
   const [activeColor, setActiveColor] = useState(false);
   const [toursData, setToursData] = useState([]);
+  const [typeTour , setTypeTour] = useState("")
   useEffect(() => {
-    fetch("http://localhost:5000/tours")
+    fetch(`http://localhost:5000/tours?type=${typeTour}`)
       .then((response) => response.json())
       .then((data) => setToursData(data));
-  }, []);
+  }, [typeTour ]);
   return (
     <div className="mt-32">
       <div className="text-center w-9/12 mx-auto">
@@ -24,20 +25,112 @@ const AllTour = () => {
       <section className="mt-14">
         <Tabs>
           <TabList className="flex justify-center gap-5">
-            <Tab className="focus:outline-none cursor-pointer text-neutral-700 font-semibold">
+            <Tab onClick={()=> setTypeTour('all')} className="focus:outline-none cursor-pointer text-neutral-700 font-semibold">
               All
             </Tab>
-            <Tab className="focus:outline-none cursor-pointer text-neutral-700 font-semibold">
+            <Tab onClick={()=> setTypeTour('BUDGET FRIENDLY')} className="focus:outline-none cursor-pointer text-neutral-700 font-semibold">
               BUDGET FRIENDLY
             </Tab>
-            <Tab className="focus:outline-none cursor-pointer text-neutral-700 font-semibold">
+            <Tab onClick={()=> setTypeTour('EXPANSIVE TOURS')} className="focus:outline-none cursor-pointer text-neutral-700 font-semibold">
               EXPANSIVE TOURS
             </Tab>
-            <Tab className="focus:outline-none cursor-pointer text-neutral-700 font-semibold">
+            <Tab onClick={()=> setTypeTour('RECOMMENDED')} className="focus:outline-none cursor-pointer text-neutral-700 font-semibold">
               RECOMMENDED
             </Tab>
           </TabList>
 
+          <TabPanel>
+            <div className="grid md:grid-cols-3 gap-5 mt-16">
+              {toursData.map(({ image, name, packages, description }) => (
+                <div className="card  bg-base-100 shadow-xl rounded-none">
+                  <figure>
+                    <img className="h-56 w-full" src={image} alt="" />
+                  </figure>
+
+                  <div className="py-4 px-5 ">
+                    <div className="flex justify-between items-center">
+                      <h2 className="text-xl font-bold">{name}</h2>
+                      <p className="text-xl font-bold">${packages?.price}</p>
+                    </div>
+                    <p className="py-3">{packages?.rating}</p>
+                    <p className="">{description.slice(0, 80)}</p>
+                    <div className="divider"></div>
+                    <div className="flex gap-5 ">
+                      <p className="flex items-center gap-2">
+                        <SlReload /> {packages?.days} Days
+                      </p>
+                      <p className="flex items-center ">
+                        <BsFillPersonFill />
+                        {packages?.persons} Persons
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </TabPanel>
+
+          <TabPanel>
+            <div className="grid md:grid-cols-3 gap-5 mt-16">
+              {toursData.map(({ image, name, packages, description }) => (
+                <div className="card  bg-base-100 shadow-xl rounded-none">
+                  <figure>
+                    <img className="h-56 w-full" src={image} alt="" />
+                  </figure>
+
+                  <div className="py-4 px-5 ">
+                    <div className="flex justify-between items-center">
+                      <h2 className="text-xl font-bold">{name}</h2>
+                      <p className="text-xl font-bold">${packages?.price}</p>
+                    </div>
+                    <p className="py-3">{packages?.rating}</p>
+                    <p className="">{description.slice(0, 80)}</p>
+                    <div className="divider"></div>
+                    <div className="flex gap-5 ">
+                      <p className="flex items-center gap-2">
+                        <SlReload /> {packages?.days} Days
+                      </p>
+                      <p className="flex items-center ">
+                        <BsFillPersonFill />
+                        {packages?.persons} Persons
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </TabPanel>
+
+          <TabPanel>
+            <div className="grid md:grid-cols-3 gap-5 mt-16">
+              {toursData.map(({ image, name, packages, description }) => (
+                <div className="card  bg-base-100 shadow-xl rounded-none">
+                  <figure>
+                    <img className="h-56 w-full" src={image} alt="" />
+                  </figure>
+
+                  <div className="py-4 px-5 ">
+                    <div className="flex justify-between items-center">
+                      <h2 className="text-xl font-bold">{name}</h2>
+                      <p className="text-xl font-bold">${packages?.price}</p>
+                    </div>
+                    <p className="py-3">{packages?.rating}</p>
+                    <p className="">{description.slice(0, 80)}</p>
+                    <div className="divider"></div>
+                    <div className="flex gap-5 ">
+                      <p className="flex items-center gap-2">
+                        <SlReload /> {packages?.days} Days
+                      </p>
+                      <p className="flex items-center ">
+                        <BsFillPersonFill />
+                        {packages?.persons} Persons
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </TabPanel>
           <TabPanel>
             <div className="grid md:grid-cols-3 gap-5 mt-16">
               {toursData.map(({ image, name, packages, description }) => (

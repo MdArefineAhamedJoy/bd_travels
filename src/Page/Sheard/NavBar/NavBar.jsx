@@ -6,49 +6,56 @@ import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { AiOutlineAlignLeft } from "react-icons/ai";
 import Banner from "../../Home/HomePage/Banner/Banner";
 import TopNav from "./TopNav";
-import ToursBanner from "../../Home/TourPage/ToursBanner";
+
 
 const NavBar = () => {
   const location = useLocation();
   const bannerSection = location?.pathname === "/";
   const toursPage = location?.pathname === "/tours";
+  const destinationPage = location?.pathname === "/destination";
   const navItem = (
     <>
       <li>
-        <Link className="mx-3  text-neutral-700 uppercase">Home</Link>
+        <Link className={`mx-5  text-neutral-700 uppercase`}>Home</Link>
       </li>
       <li>
-        <Link to="/about" className="mx-3  text-neutral-700 uppercase">About </Link>
-      </li>
-      <li>
-        <Link to="/blog" className="mx-3  text-neutral-700 uppercase">Blogs</Link>
-      </li>
-      <li>
-        <Link to="destination" className="mx-3  text-neutral-700 uppercase">Destination</Link>
-      </li>
-      <li>
-        <Link to="/tours" className="mx-3  text-neutral-700 uppercase">
-          Tours{" "}
+        <Link to="/about" className="mx-5  text-neutral-700 uppercase">
+          About{" "}
         </Link>
       </li>
       <li>
-        <Link to="element" className="mx-3  text-neutral-700 uppercase">Elements</Link>
+        <Link to="/blog" className="mx-5  text-neutral-700 uppercase">
+          Blogs
+        </Link>
+      </li>
+      <li>
+        <Link to="destination" className="mx-5  text-neutral-700 uppercase">
+          Destination
+        </Link>
+      </li>
+      <li>
+        <Link to="/tours" className="mx-5  text-neutral-700 uppercase">
+          Tours{" "}
+        </Link>
       </li>
 
+
       <li>
-        <Link to="shop" className="mx-3  text-neutral-700 uppercase">Shops</Link>
+        <Link to="shop" className="mx-5  text-neutral-700 uppercase">
+          Shops
+        </Link>
       </li>
       <li>
-        <div className="indicator">
+        <div className="indicator mx-5">
           <span className="indicator-item badge badge-secondary  rounded-full">
             0
           </span>
-          <button className="btn   btn-circle ">
-            <HiOutlineShoppingCart className="mx-3 w-full h-full  text-neutral-700 uppercase"></HiOutlineShoppingCart>
+          <button className="btn  btn-circle ">
+            <HiOutlineShoppingCart className=" w-5 h-5    text-neutral-700 uppercase"></HiOutlineShoppingCart>
           </button>
         </div>
       </li>
-      <li className="ms-3">
+      <li className="ms-5">
         <label htmlFor="my-drawer" className="   text-[#ef2853]  uppercase">
           <AiOutlineAlignLeft></AiOutlineAlignLeft>
         </label>
@@ -60,10 +67,8 @@ const NavBar = () => {
       {/* top navStart */}
       <TopNav></TopNav>
       {/* top navEnd */}
-      {toursPage ? (
-        <ToursBanner></ToursBanner>
-      ) : (
-        <section className="navbar bg-base-100 px-7 py-3 ">
+      <section className={` ${toursPage ? "bg_tours" : destinationPage ? "bg_destination text-white ": ""} flex items-start`}>
+        <div className={`navbar  px-7 py-3  `}>
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -89,14 +94,14 @@ const NavBar = () => {
                 {navItem}
               </ul>
             </div>
-            <a className=" normal-case text-xl font-bold">BD Traveler</a>
+            <a className=" normal-case text-xl font-bold ">BD Traveler</a>
           </div>
-          <div className="navbar-end hidden lg:flex items-center">
-            <ul className=" flex items-center font-semibold ">{navItem}</ul>
+          <div className="navbar-end  hidden lg:flex items-center ">
+            <ul className=" flex  font-semibold items-center ">{navItem}</ul>
           </div>
-        </section>
-      )}
-
+        </div>
+      </section>
+      {/* side drawer  */}
       <div className="drawer drawer-end z-30">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">{/* Page content here */}</div>
@@ -113,6 +118,7 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
+      {/* side drawer  */}
       {bannerSection && <Banner></Banner>}
     </div>
   );

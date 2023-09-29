@@ -10,9 +10,9 @@
       "days": 3
     },
     "image": "https://media.istockphoto.com/id/1603473839/photo/wild-spotted-deer.jpg?s=612x612&w=0&k=20&c=zWSSZVyHvvC6LVZXm-Unz9P7ffaPS4sFdFOq0rJVraQ=",
-    "tours" : "Budget Friendly",
+    "tourType": "budget friendly",
     "types": "Romantic",
-    "activities":"false"
+    "activities": "false"
   },
   {
     "name": "Cox's Bazar",
@@ -25,9 +25,9 @@
       "days": 2
     },
     "image": "https://media.istockphoto.com/id/457425347/photo/a-boat-in-bangladesh-on-the-beach.jpg?s=612x612&w=0&k=20&c=XdDWfFuurxicIv7wcpoHvzsf9-2htquLquql89Hlf2M=",
-    "tours" : "Recommended",
+    "tourType": "recommended",
     "types": "Romantic",
-    "activities":"false"
+    "activities": "false"
   },
   {
     "name": "Sajek Valley",
@@ -40,9 +40,9 @@
       "days": 4
     },
     "image": "https://images.unsplash.com/photo-1578128178075-a7fbe741fcf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2FqZWslMjB2YWxsZXklMjAocmFuZ2FtYXRpKXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "Budget Friendly",
+    "tourType": "budget friendly",
     "types": "Cruises",
-    "activities":"false"
+    "activities": "false"
   },
   {
     "name": "Tangor Hour",
@@ -55,9 +55,9 @@
       "days": 2
     },
     "image": "https://images.unsplash.com/photo-1661111168932-4241429374f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fFRhbmdvciUyMGhvdXIlMjBTeWxoZXQlMjBEaXZpc2lvbiUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "Budget Friendly",
+    "tourType": "budget friendly",
     "types": "Group Tours",
-    "activities":"false"
+    "activities": "false"
   },
   {
     "name": "Lalbagh Fort",
@@ -70,9 +70,9 @@
       "days": 1
     },
     "image": "https://media.istockphoto.com/id/1462591992/photo/the-tomb-of-bibi-pari-in-the-grounds-of-lalbagh-fort-in-dhaka-bangladesh.jpg?s=612x612&w=0&k=20&c=1YJJtt_Pe4XXsPTtqFLUTUrHSrJVlH3w5Tw3jxiNdso=",
-    "tours" : "Recommended",
+    "tourType": "recommended",
     "types": "Meals Included",
-    "activities":"false"
+    "activities": "false"
   },
   {
     "name": "Sreemangal",
@@ -85,9 +85,9 @@
       "days": 2
     },
     "image": "https://media.istockphoto.com/id/1444110065/photo/a-cup-of-hot-tea-with-the-tea-plantation-background-at-sreemangal-tea-garden-bangladesh-space.webp?b=1&s=170667a&w=0&k=20&c=OZXueAL7bKagTj_GEmyg8H4kgJ6By5yU-77mWs6rWi4=",
-    "tours" : "Budget Friendly",
+    "tourType": "budget friendly",
     "types": "Romantic",
-    "activities":"false"
+    "activities": "false"
   },
   {
     "name": "Cox's Bazar Marine Drive",
@@ -100,9 +100,9 @@
       "days": 1
     },
     "image": "https://media.istockphoto.com/id/1346172937/photo/drone-shot-of-coxs-bazar-teknaf-marine-drive.jpg?s=612x612&w=0&k=20&c=f28ldm8jaCfqv5F_sGeirAslAjTDSi3tNUS9q7yl3_A=",
-    "tours" : "Recommended",
+    "tourType": "recommended",
     "types": "Museum Tours",
-    "activities":"false"
+    "activities": "false"
   },
   {
     "name": "Saint Martin's Island",
@@ -115,7 +115,7 @@
       "days": 3
     },
     "image": "https://images.unsplash.com/photo-1606546008984-41818b01968a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2FpbnQlMjBNYXJ0aW4ncyUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "Recommended",
+    "tourType": "recommended",
     "types": "City Sightseeing",
     "activities": "false"
   },
@@ -130,8 +130,8 @@
       "days": 2
     },
     "image": "https://media.istockphoto.com/id/1423711545/photo/scenic-view-of-kuakata-sea-beach-with-fishing-boat.webp?b=1&s=170667a&w=0&k=20&c=VOhhyW2O5aGQZzhn2zcT7KUTJIu7PgdcfWg5WqIHqVU=",
-    "tours" : "City Sightseeing",
-    "types": "Budget Friendly",
+    "tourType": "budget friendly",
+    "types": " City Sightseeing",
     "activities": "false"
   },
   {
@@ -145,7 +145,7 @@
       "days": 3
     },
     "image": "https://media.istockphoto.com/id/1479003223/photo/sunset-behind-the-clouds-in-a-remote-forest-marayon-thong-hill-bandarban-bangladesh.webp?b=1&s=170667a&w=0&k=20&c=MbPS_j5zW-3NP7h41SfVwvELBwxqYKP35f0EFf61nz8=",
-    "tours" : "Budget Friendly",
+    "tourType": "budget friendly",
     "types": "Eastern tours",
     "activities": "false"
   },
@@ -160,8 +160,8 @@
       "days": 2
     },
     "image": "https://images.unsplash.com/photo-1632935640437-b0c806829023?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJhbmdhbWF0aSUyMGJhbmdsYWRlc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "Eastern World",
-    "types": "Escorted tours",
+    "tourType": "expansive",
+    "types": "Eastern World",
     "activities": "false"
   },
   {
@@ -175,7 +175,7 @@
       "days": 2
     },
     "image": "https://media.istockphoto.com/id/1277546406/photo/photo-of-jaflong-region.jpg?s=612x612&w=0&k=20&c=XIkP8hpsxwanwo540BgT9i5DB-26QXwIyzU-MyOJTyw=",
-    "tours" : "Budget Friendly",
+    "tourType": "budget friendly",
     "types": "Budget Friendly",
     "activities": "Air Rides"
   },
@@ -190,7 +190,7 @@
       "days": 1
     },
     "image": "https://media.istockphoto.com/id/1316078638/photo/paharpur-buddhist-monk-naogaon.jpg?s=612x612&w=0&k=20&c=5t-BE3dwvmLMFGCKIjKeISGqU8nR66dSxs_W8exdFO8=",
-    "tours" : "EXPANSIVE TOURS",
+    "tourType": "expansive",
     "types": "Escorted tours",
     "activities": "Beaches"
   },
@@ -205,7 +205,7 @@
       "days": 1
     },
     "image": "https://images.unsplash.com/photo-1632935640437-b0c806829023?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEthcHRhaSUyMExha2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "Expensive",
+    "tourType": "expansive",
     "types": "Escorted tours",
     "activities": "Hiking Adventures"
   },
@@ -220,7 +220,7 @@
       "days": 1
     },
     "image": "https://images.unsplash.com/photo-1519582149095-fe7d19b2a3d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1hZGhhYmt1bmRhJTIwV2F0ZXJmYWxsJTIwYmFuZ2xhZGVzaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    "tours" : "Budget Friendly",
+    "tourType": "budget friendly",
     "types": "Meals Included",
     "activities": "false"
   }

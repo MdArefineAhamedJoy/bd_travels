@@ -4,7 +4,6 @@ import Home from "../Page/Home/Home";
 import Tours from "../Page/Home/TourPage/Tours";
 import About from "../Page/Home/AboutPage/About";
 import BlogPage from "../Page/Home/BlogPage.jsx/BlogPage";
-import ElementsPage from "../Page/Home/ElementsPage/ElementsPage";
 import DestinationPage from "../Page/Home/DestinationPage/DestinationPage";
 import ShopPage from "../Page/Home/ShopPage/ShopPage";
 
@@ -31,10 +30,6 @@ const router = createBrowserRouter([
         {
           path : "/blog",
           element: <BlogPage></BlogPage>
-        },
-        {
-          path: "/element",
-          element: <ElementsPage></ElementsPage>
         },
         {
           path: "destination",
