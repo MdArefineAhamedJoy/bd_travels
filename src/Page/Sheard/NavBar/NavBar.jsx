@@ -13,6 +13,7 @@ const NavBar = () => {
   const bannerSection = location?.pathname === "/";
   const toursPage = location?.pathname === "/tours";
   const destinationPage = location?.pathname === "/destination";
+  const aboutPage = location?.pathname === "/about";
   const navItem = (
     <>
       <li>
@@ -67,7 +68,7 @@ const NavBar = () => {
       {/* top navStart */}
       <TopNav></TopNav>
       {/* top navEnd */}
-      <section className={` ${toursPage ? "bg_tours" : destinationPage ? "bg_destination text-white ": ""} flex items-start`}>
+      <section className={` ${toursPage ? "bg_tours" : destinationPage ? "bg_destination text-white ": aboutPage ? "bg_about" : ""} flex items-start`}>
         <div className={`navbar  px-7 py-3  `}>
           <div className="navbar-start">
             <div className="dropdown">
