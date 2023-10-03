@@ -39,8 +39,6 @@ const NavBar = () => {
           Tours{" "}
         </Link>
       </li>
-
-
       <li>
         <Link to="shop" className="mx-5  text-neutral-700 uppercase">
           Shops

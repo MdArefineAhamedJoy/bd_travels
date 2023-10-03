@@ -28,7 +28,7 @@ const TopNav = () => {
             <div className="">
               <p>English</p>
             </div>
-            <p className="mx-8">SingIn</p>
+            <Link to="/login" className="mx-8">SingIn</Link>
             <BsSearch></BsSearch>
           </div>
         </div>

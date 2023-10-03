@@ -6,6 +6,7 @@ import About from "../Page/Home/AboutPage/About";
 import BlogPage from "../Page/Home/BlogPage.jsx/BlogPage";
 import DestinationPage from "../Page/Home/DestinationPage/DestinationPage";
 import ShopPage from "../Page/Home/ShopPage/ShopPage";
+import Login from "../Components/Login";
 
 
 
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
         {
           path: "shop",
           element: <ShopPage></ShopPage>
+        },
+        {
+          path: "login",
+          element: <Login></Login>
         }
     ]
   },

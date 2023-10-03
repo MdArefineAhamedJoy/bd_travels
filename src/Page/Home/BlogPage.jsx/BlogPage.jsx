@@ -1,17 +1,17 @@
-import React from "react";
-import { BsSearch } from "react-icons/bs";
+import React, { useEffect, useState } from "react";
+import BlogSideBar from "./BlogSideBar";
+import BlogCart from "./BlogCart";
 
-const items = ["Adventure ",
-    "Business Travel" ,
-   " Cruises" ,
-    "Exotic Vacations" ,
-    "Golf & Spa" ,
-    "Holidays ",
-    "Honeymoon" ,
-   " Last Minute ",
-    "Travel" ]
+
 
 const BlogPage = () => {
+  const [blogs , setBlogs]  = useState([])
+  useEffect(()=> {
+    fetch("blog.json")
+    .then(response => response.json())
+    .then(data =>  setBlogs(data))
+  },[])
+  console.log(blogs)
   return (
     <div className="w-11/12 mx-auto">
       <div className="text-center w-9/12 mx-auto mt-20">
@@ -23,30 +23,13 @@ const BlogPage = () => {
         </p>
       </div>
       <main className="flex my-20">
-        <section className="w-9/12"></section>
+        <section className="w-9/12">
+          {
+            blogs.map(blog => <BlogCart blog={blog} key={blog.id}></BlogCart>)
+          }
+        </section>
         <section className="w-3/12">
-          <div class="relative w-full">
-            <input
-              class="border-2 font-bold focus:outline-none p-1 px-2 pe-9 my-2 w-full bg-transparent rounded"
-              type="text"
-              placeholder="Search..."
-            />
-            <button
-              class="absolute right-[0px] top-0 bottom-0 h-full  px-2 pe-3 text-gray-600 "
-              type="button"
-            >
-              <div>
-                <BsSearch />
-              </div>
-            </button>
-          </div>
-          <h3>About Author</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            sollicitudin, tellus vitae condimentum egestas, libero dolor auctor
-            tellus, eu consectetur neque elit quis nunc. Cras elementum pretium
-          </p>
-          <h2>Categories</h2>
+          <BlogSideBar></BlogSideBar>
         </section>
       </main>
     </div>

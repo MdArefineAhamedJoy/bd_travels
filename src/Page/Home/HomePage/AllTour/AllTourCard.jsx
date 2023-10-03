@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillPersonFill } from "react-icons/bs";
 import { SlReload } from "react-icons/sl";
 const AllTourCard = ({ tours }) => {
-  const { image, name, packages, description } = tours;
+  const { image, name, package:packages, description } = tours;
   return (
     <div className="card  bg-base-100 shadow-xl rounded-none">
       <figure>
